@@ -1,0 +1,17 @@
+# block directories
+Options -Indexes
+
+# block private folder
+<Directory "r_private">
+    Require all denied
+</Directory>
+
+# block file
+<Files "r_header.html">
+    Require all denied
+</Files>
+
+# block img folder
+<Directory "img">
+    Require all denied
+</Directory>
