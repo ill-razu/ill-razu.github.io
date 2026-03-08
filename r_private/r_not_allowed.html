@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <title>Private Access</title>
+
+    <!-- reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <style>
+        #hiddenContent { display: none; }
+    </style>
+</head>
+<body>
+    <h1>We dont like robot here</h1>
+
+    <!-- reCAPTCHA widget -->
+    <div class="g-recaptcha" data-sitekey="6Ld2y4MsAAAAAMMXslrYGsBxg4m8sepwi6Gy7J-b" data-callback="showContent"></div>
+
+    <div id="hiddenContent">
+        <h1>WE dont like you here</h1>
+        <p>the php password is</p>
+        <p>322223</p>
+        <h4>this is probably password too: hello@kirill.com</h4>
+    </div>
+
+    <script>
+        // if captcha success
+        function showContent() {
+            document.getElementById('hiddenContent').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
