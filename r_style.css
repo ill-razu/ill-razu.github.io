@@ -1,0 +1,347 @@
+.fixed_header {
+    position: fixed;
+    width: 98.5%;
+    height: 89px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    top: 10px;
+    left: 8px;
+    right: 10px;
+    border-radius: 25px;
+
+}
+
+body {
+    padding-top: 115px;
+    width: 98.5%;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+  }
+
+.navigation {
+    margin-right: 25px;
+    display: flex;
+    float: right;
+    margin-top: 0px;
+    padding-top: 30px;
+    
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+}
+
+
+ul a:hover {
+
+    color: red;
+}
+
+.title_image {
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    float: left;
+
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    margin-left: 25px;
+    padding-left: 30px;
+    padding-top: 1px;
+    color: white;
+    font-family: monospace;
+    font-size: 16px;
+    
+ 
+}
+
+
+.footer {
+    background-color: brown;
+    color: white;
+    bottom: 0;
+    width: 99.3%;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    top: 10px;
+    left: 8px;
+    right: auto;
+    border-radius: 25px;
+    font-family: monospace;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+
+.slogan {
+
+    font-size: large;
+}
+
+.phone {
+
+    padding-right: 10px;
+}
+
+
+.main_pizza {
+
+    padding-top: 60px;
+    border-radius: 25px;
+    float: right;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.main_pizza_logo {
+
+    padding-top: 60px;
+    border-radius: 25px;
+    float: left;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.text_main {
+    font-size: large;
+    font-weight: 600;
+    clear: left;
+    position: inherit;
+}
+
+
+.pizza_image {
+
+    border-radius: 25px;
+
+}
+
+
+.pizza_name {
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+}
+
+.pizza_weight {
+
+    text-decoration: wavy;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(102, 102, 103)
+}
+
+.pizza_desc {
+
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.image_table {
+
+    text-align: center;
+}
+
+.text_table {
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+button, .submit_button, .build_button {
+
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    background-color: #dab52f;
+    color: white;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding: 5px;
+    padding-top: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: system-ui, 'Helvetica Neue', sans-serif;
+
+}
+
+
+.select_box {
+
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    
+}
+.order_form, .build_form {
+
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: 450;
+    
+}
+
+.form_order label {
+    font-size: 21px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button:hover, .submit_button:hover, .build_button:hover {
+
+    
+    color: red;
+    background-color: black;
+}
+
+h1 {
+
+    padding: 0;
+    margin-top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form label {
+
+    font-size: 20px;
+    
+
+}
+
+.success_order {
+    
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+
+.info_image {
+    width: 32%;
+    float: right;
+    padding-bottom: 15px;
+    padding-top: 0px;
+   
+}
+
+.info_bulding {
+
+    width: 60%;
+    height: 200px;
+
+}
+
+.info_text {
+
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.video_left_top {
+    float: left;
+    border-radius: 25px;
+    width: 45%;
+    margin-left: 43px;
+    margin-bottom: 15px;
+}
+
+.video_left_bottom {
+    float: left;
+    border-radius: 25px;
+    width: 45%;
+    margin-left: 43px;
+    margin-bottom: 15px;
+}
+
+.video_right_top {
+    float: right;
+    border-radius: 25px;
+    width: 45%;
+    margin-right: 43px;
+    margin-bottom: 15px;
+}
+
+
+.video_right_bottom {
+    float: right;
+    border-radius: 25px;
+    width: 45%;
+    margin-right: 43px;
+    margin-bottom: 15px;
+}
+
+.map_title {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 23px;
+}
+
+.map_frame {
+    width: 95%;
+    border-radius: 25px;
+    margin-left: 33px;
+    height: 428px;
+
+}
+
+
+.frame_gd {
+
+    text-align: center;
+}
+
+
+.a_value {
+
+    color: rgb(200, 200, 0);
+}
+
+.b_value {
+
+    color: rgb(0, 0, 200);
+}
+.c_value {
+
+    color: red;
+}
+
+
+.db_form {
+
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: 450;
+
+}
+
+
+.form_db label {
+    font-size: 21px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
