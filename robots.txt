@@ -1,5 +1,4 @@
 User-agent: *
-Allow: /
 
 Disallow: /r_private/
 Disallow: /r_header.html
