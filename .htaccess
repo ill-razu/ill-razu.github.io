@@ -1,17 +1,16 @@
-# block directories
+# disable directory listing
 Options -Indexes
 
-# block private folder
-<Directory "r_private">
-    Require all denied
-</Directory>
+# enable rewrite
+RewriteEngine On
 
-# block file
+# block r_private folder
+RewriteRule ^r_private/ - [F,L]
+
+# block img folder
+RewriteRule ^img/ - [F,L]
+
+# block specific file
 <Files "r_header.html">
     Require all denied
 </Files>
-
-# block img folder
-<Directory "img">
-    Require all denied
-</Directory>
